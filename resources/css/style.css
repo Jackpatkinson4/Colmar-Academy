@@ -478,6 +478,7 @@ p {
     background-color:#d8d8d8;
 }
 
+
 /* Footer stuff */
 footer {
     display: flex;
@@ -503,6 +504,24 @@ footer {
     margin-right: 1rem;
     font-size: 1rem;
     font-weight: 400;
+}
+
+@media only screen and (max-width: 1030px) {
+    .thesis-container h2 {
+        margin-top: 4rem;
+    }
+
+    .thesis-left {
+        width: auto;
+    }
+    
+    .thesis-info {
+        display: none;
+    }
+
+    .thesis-right {
+        display: none;
+    }
 }
 
 
